@@ -1,0 +1,1 @@
+Polices Google Fonts auto-hébergées. Barlow Condensed 700 (github.com/jpt/barlow), DM Sans 400 et 600 (github.com/googlefonts/dm-fonts). Licence SIL Open Font License. Fichiers servis localement, aucune requête Google Fonts du navigateur.

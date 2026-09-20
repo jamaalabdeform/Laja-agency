@@ -1,0 +1,1 @@
+Médias de préparation fournis par l'utilisateur. instagram-grid.png provient de codex-clipboard-42242ecb-e791-4558-9051-85909c20c75b.png. instagram-scenes.png provient de codex-clipboard-54c36cbd-332a-488e-a320-aa0ddaa08bf9.png. Ajouter ici les vidéos et photos originales validées. Ne pas présenter les captures comme vidéos. Showreel désactivé par défaut.

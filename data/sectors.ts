@@ -1,0 +1,6 @@
+export const sectors=[
+{id:"restaurant",name:"Restaurant",title:"Du « ça donne envie » au « on réserve ? ».",description:"Votre prochain client découvre un plat dans son fil. Donnez-lui un chemin simple pour passer à table.",steps:["Reel gourmand","Menu en ligne","Message WhatsApp","Demande de réservation"],frame:"food" as const},
+{id:"boutique",name:"Boutique",title:"Une collection remarquée. Une visite préparée.",description:"Un contenu présente la pièce. Votre site donne les détails et la conversation répond aux dernières questions.",steps:["Nouvelle collection","Site de la boutique","Question disponibilité","Visite ou achat"],frame:"lifestyle" as const},
+{id:"beaute",name:"Beauté",title:"De l’inspiration à la prise de rendez-vous.",description:"Mettez votre savoir-faire en lumière, présentez vos prestations et facilitez la première demande.",steps:["Contenu Instagram","Prestation découverte","Question WhatsApp","Demande de rendez-vous"],frame:"creator" as const},
+{id:"entreprise",name:"Entreprise",title:"Votre expertise mérite le bon premier contact.",description:"Des contenus qui donnent confiance, un site qui explique votre offre et une demande facile à formuler.",steps:["Contenu expert","Crédibilité","Site internet","Demande de contact"],frame:"loisirs" as const}
+];
