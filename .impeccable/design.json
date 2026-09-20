@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-20T23:28:04.4726296Z",
+  "title": "Design System: LAJA Agency",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "floating-contact",
+        "value": "0 5px 20px #14273520",
+        "purpose": "Détacher le contact flottant."
+      },
+      {
+        "name": "phone",
+        "value": "10px 22px 36px #14273518",
+        "purpose": "Relief du téléphone de démonstration."
+      }
+    ],
+    "motion": [
+      {
+        "name": "action",
+        "value": "background .2s, transform .2s",
+        "purpose": "Survol avec translateY(-2px)."
+      },
+      {
+        "name": "project",
+        "value": "transform .5s",
+        "purpose": "Agrandissement du média à 1.035."
+      },
+      {
+        "name": "message",
+        "value": "message-in .4s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Entrée depuis opacity .25 et translateY(7px)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Défilement auto, animations et transitions désactivées, survols du héros, des actions et projets sans transformation."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile-nav-max",
+        "value": "800px"
+      },
+      {
+        "name": "stacked-max",
+        "value": "520px"
+      },
+      {
+        "name": "small-mobile-max",
+        "value": "440px"
+      }
+    ],
+    "focus": {
+      "outline": "3px solid #167f70",
+      "outlineOffset": "5px"
+    }
+  },
+  "components": [
+    {
+      "name": "Action principale",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action franche avec focus clavier visible.",
+      "html": "<button class=\"ds-action\">Parlons de votre projet</button>",
+      "css": ".ds-action{display:inline-flex;gap:30px;align-items:center;justify-content:space-between;padding:17px 24px;background:var(--ink,#142735);color:var(--paper,#f7f7f2);font:600 14px/1.6 DM,Arial,sans-serif;border:1px solid var(--ink,#142735);border-radius:0;cursor:pointer;transition:background .2s,transform .2s}.ds-action:hover{background:#294858;transform:translateY(-2px)}.ds-action:focus-visible{outline:3px solid #167f70;outline-offset:5px}.ds-action:disabled{cursor:wait;opacity:.6}@media(prefers-reduced-motion:reduce){.ds-action{transition:none}.ds-action:hover{transform:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Une affiche de studio créatif",
+    "overview": "Titres condensés, papier clair, encre bleu nuit, aplats aqua et ponctuation corail. Logo original, photographies verticales et contours nets.",
+    "keyCharacteristics": [
+      "Hiérarchie forte",
+      "Contours nets",
+      "Espaces généreux",
+      "Interactions légères"
+    ],
+    "rules": [
+      {
+        "name": "Règle des accents",
+        "body": "Garder l'encre pour la lecture longue.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Préserver le contraste et les filets.",
+      "Vérifier clavier et mouvement réduit.",
+      "Conserver le logo original."
+    ],
+    "donts": [
+      "Ne pas généraliser les ombres du simulateur.",
+      "Ne pas inventer des preuves ou confirmations."
+    ]
+  }
+}
