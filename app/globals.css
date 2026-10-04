@@ -20,3 +20,6 @@
 @media(prefers-reduced-motion:reduce){.chat-message{animation:none}.hero-shot:hover,.action:hover,.project-image:hover .media-frame{transform:none}}
 
 
+
+.communication-extras{padding-top:clamp(56px,7vw,104px);padding-bottom:clamp(40px,5vw,72px)}
+.communication-extras .expertise{scroll-margin-top:110px}
