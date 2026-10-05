@@ -1,9 +1,2 @@
-import type { Metadata } from "next";
-import PageIntro from "@/components/laja/PageIntro";
-import WhatsAppDemo from "@/components/laja/WhatsAppDemo";
-import { FinalCTA } from "@/components/laja/Footer";
-import { Action } from "@/components/laja/Primitives";
-
-export const metadata:Metadata={title:"Vos agentes IA sur mesure",description:"Répondez aux premières questions de vos clients et qualifiez leurs demandes avec l’assistant WhatsApp LAJA.",alternates:{canonical:"/assistant-whatsapp"}};
-export default function Assistant(){return <main id="main"><PageIntro title={<>LE BON MOMENT.<br/><span>C’EST LE LEUR.</span></>}><p>À la fermeture, pendant un service ou entre deux rendez-vous : une question client mérite une première réponse.</p></PageIntro><WhatsAppDemo full/><section className="wrap faq-section"><h2>Un assistant.<br/>Votre équipe aux commandes.</h2><div>{[{q:"Que peut faire l’assistant ?",a:"Présenter les informations que vous lui fournissez, répondre aux questions fréquentes et recueillir les précisions utiles à votre équipe. Son périmètre se définit avec vous."},{q:"Peut-il confirmer une réservation ou un stock ?",a:"Seulement si une connexion à vos outils le permet et a été configurée. Sinon, il prépare la demande et votre équipe confirme. La démonstration de cette page ne consulte aucun stock ni planning réel."},{q:"Un humain peut-il reprendre la conversation ?",a:"Le passage à votre équipe fait partie du parcours à définir. Nous précisons avec vous les situations qui nécessitent une intervention et la manière de transmettre les demandes."},{q:"Comment obtenir un devis ?",a:"Parlez-nous de votre activité et des tâches à confier à votre agente IA. Nous définissons ensemble le périmètre, les intégrations et les conditions de votre accompagnement sur mesure."}].map(f=><details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}<Action href="/contact?besoin=Agentes%20IA%20sur%20mesure">Demander un devis</Action></div></section><FinalCTA/></main>}
-
+import { permanentRedirect } from "next/navigation";
+export default function LegacyAssistant(){permanentRedirect("/agent-ia")}

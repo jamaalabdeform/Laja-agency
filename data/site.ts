@@ -10,12 +10,12 @@ export const site = {
 };
 export function whatsappUrl(message = "Bonjour Sofiane, je souhaite parler de mon projet avec LAJA.") {
   const number = site.whatsapp.replace(/[^0-9]/g, "");
-  return number ? `https://wa.me/${number}?text=${encodeURIComponent(message)}` : "/contact?besoin=Assistant%20WhatsApp";
+  return number ? `https://wa.me/${number}?text=${encodeURIComponent(message)}` : "/contact?besoin=Agent%20IA";
 }
 export const navigation = [
   { href: "/services", label: "Expertises" },
   { href: "/realisations", label: "Réalisations" },
-  { href: "/assistant-whatsapp", label: "Assistant WhatsApp" },
+  { href: "/agent-ia", label: "Agent IA" },
   { href: "/a-propos", label: "L’agence" },
 ];
 
