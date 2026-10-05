@@ -12,5 +12,5 @@ export const metadata:Metadata={
  twitter:{card:"summary",title:"LAJA Agency",description:"De la première vue à la première vente."},
  icons:{icon:"/brand/logo.jpg",shortcut:"/brand/logo.jpg"}
 };
-export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="fr"><body><a className="skip-link" href="#main">Aller au contenu</a><Header/>{children}<Footer/></body></html>}
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="fr"><body className="studio-theme"><a className="skip-link" href="#main">Aller au contenu</a><Header/>{children}<Footer/></body></html>}
 

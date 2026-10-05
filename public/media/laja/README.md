@@ -1,1 +1,3 @@
 Médias de préparation fournis par l'utilisateur. instagram-grid.png provient de codex-clipboard-42242ecb-e791-4558-9051-85909c20c75b.png. instagram-scenes.png provient de codex-clipboard-54c36cbd-332a-488e-a320-aa0ddaa08bf9.png. Ajouter ici les vidéos et photos originales validées. Ne pas présenter les captures comme vidéos. Showreel désactivé par défaut.
+
+Couvertures laja-riva-cover.png, laja-bao-cover.png, laja-forum-cover.png : captures des zones vidéo des Reels fournis par l’utilisateur, réalisées le 5 octobre 2026. Sources : https://www.instagram.com/reel/Dd4NSDwOCi5/ ; https://www.instagram.com/reel/DZIohE7tnhe/ ; https://www.instagram.com/reel/DY9PvNMIa0S/.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-20T23:28:04.4726296Z",
+  "generatedAt": "2026-10-05T21:39:11.303Z",
   "title": "Design System: LAJA Agency",
   "extensions": {
     "shadows": [
@@ -35,6 +35,11 @@
         "name": "reduced-motion",
         "value": "prefers-reduced-motion: reduce",
         "purpose": "Défilement auto, animations et transitions désactivées, survols du héros, des actions et projets sans transformation."
+      },
+      {
+        "name": "film",
+        "value": "transform .45s",
+        "purpose": "Scale(1.025) sur RIVA ; aucun zoom BAO et Forum. Désactivé sous reduced-motion."
       }
     ],
     "breakpoints": [
@@ -57,11 +62,40 @@
       {
         "name": "small-mobile-max",
         "value": "440px"
+      },
+      {
+        "name": "studio-compact-max",
+        "value": "1000px"
+      },
+      {
+        "name": "studio-small-max",
+        "value": "480px"
       }
     ],
     "focus": {
       "outline": "3px solid #167f70",
       "outlineOffset": "5px"
+    },
+    "filmMedia": {
+      "aspectRatio": "9/16",
+      "columns": 3,
+      "gap": "30px",
+      "mobileMaxWidth": "460px",
+      "mobileColumns": 1,
+      "crop": {
+        "width": "379.822%",
+        "left": "-87.8338%",
+        "top": "-14.3207%",
+        "appliesTo": [
+          "BAO Marrakech",
+          "Forum Arabo-Amazigh"
+        ]
+      },
+      "behavior": "Instagram au clic, un actif, retour couverture, lien direct et information cookies. Aucun autoplay du site."
+    },
+    "filmFocus": {
+      "outline": "4px solid #9fe8db",
+      "outlineOffset": "-6px"
     }
   },
   "components": [
@@ -75,8 +109,8 @@
     }
   ],
   "narrative": {
-    "northStar": "Une affiche de studio créatif",
-    "overview": "Titres condensés, papier clair, encre bleu nuit, aplats aqua et ponctuation corail. Logo original, photographies verticales et contours nets.",
+    "northStar": "Un studio vidéo bleu nuit",
+    "overview": "Films réels au premier plan, titres condensés, bleu nuit et aqua ; logo original conservé, sections explicatives papier.",
     "keyCharacteristics": [
       "Hiérarchie forte",
       "Contours nets",
@@ -86,7 +120,7 @@
     "rules": [
       {
         "name": "Règle des accents",
-        "body": "Garder l'encre pour la lecture longue.",
+        "body": "Sur bleu nuit : texte papier, secondaires #bfd0ce, filets #3e535f. Sur papier : lecture longue en encre.",
         "section": "colors"
       }
     ],

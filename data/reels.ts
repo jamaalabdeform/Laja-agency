@@ -1,0 +1,5 @@
+export const reels=[
+{id:"Dd4NSDwOCi5",name:"RIVA Denain",category:"Restauration · Film d’annonce",title:"Faire une entrée remarquée.",description:"L’annonce d’une ouverture, racontée avec humour. Une collaboration publiée par RIVA Denain et LAJA Agency.",cover:"/media/laja/laja-riva-cover.png",alt:"Plan du Reel RIVA Denain, autour d’une table au restaurant"},
+{id:"DZIohE7tnhe",name:"BAO Marrakech",category:"Restauration · Contenu incarné",title:"Créer la complicité.",description:"Une mise en scène autour d’une invitation au restaurant. Un Reel publié par BAO Marrakech et LAJA Agency.",cover:"/media/laja/laja-bao-cover.png",alt:"Plan du Reel BAO Marrakech, deux personnes discutent au restaurant"},
+{id:"DY9PvNMIa0S",name:"Forum Arabo-Amazigh",category:"Événement · Immersion",title:"Faire vivre le moment.",description:"Le premier jour du Forum Arabo-Amazigh : une invitation au partage, à la culture et à la découverte.",cover:"/media/laja/laja-forum-cover.png",alt:"Plan du Reel du Forum Arabo-Amazigh devant le Beffroi"}
+];
