@@ -5,7 +5,7 @@ import { ArrowUpRight, Copy, Check } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 import { site, whatsappUrl } from "@/data/site";
-const needs=["Communication","Réseaux sociaux","Stratégie marketing","Image de marque / branding","Vidéo / contenu","Supports de communication","Formation","Site internet","Assistant WhatsApp","Accompagnement 360","Je ne sais pas encore"];
+const needs=["Communication","Réseaux sociaux","Stratégie marketing","Image de marque / branding","Vidéo / contenu","Supports de communication","Formation","Site internet","Assistant WhatsApp","Agentes IA sur mesure","Accompagnement 360","Je ne sais pas encore"];
 const sectors=["Restaurant","Boutique","Beauté","Entreprise","Autre"];
 export default function ContactForm({initialNeed="",initialSector=""}:{initialNeed?:string;initialSector?:string}){
  const [need,setNeed]=useState(needs.includes(initialNeed)?initialNeed:"Je ne sais pas encore");const [sector,setSector]=useState(sectors.includes(initialSector)?initialSector:"");const [consent,setConsent]=useState(false);const [summary,setSummary]=useState("");const [error,setError]=useState("");const [pending,setPending]=useState(false);const [sent,setSent]=useState(false);const [copied,setCopied]=useState(false);const result=useRef<HTMLDivElement>(null);
