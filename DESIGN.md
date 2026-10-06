@@ -123,3 +123,6 @@ Angles droits pour boutons, champs et offres. Cercles pour avatars et commandes 
 - **Do** conserver le logo original et le statut explicite des démonstrations.
 - **Don't** généraliser arrondis et ombres du simulateur aux sections.
 - **Don't** inventer des preuves, résultats ou confirmations d'envoi.
+
+## Hero — correction du 6 octobre 2026
+Le hero retrouve la composition claire d’origine : titre condensé, texte à gauche et trois captures verticales décalées à droite. RIVA, BAO et Forum ouvrent chacun leur propre Reel. Les lecteurs intégrés restent sur Réalisations.

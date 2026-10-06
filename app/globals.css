@@ -34,3 +34,6 @@
 .film-launch>img.film-source-crop{position:absolute;width:379.822%;max-width:none;height:auto;left:-87.8338%;top:-14.3207%;object-fit:initial}.film-launch:hover>img.film-source-crop{transform:none}
 
 .film-launch:focus-visible{outline:4px solid var(--aqua);outline-offset:-6px}.film-launch:focus-visible .film-watch{background:var(--aqua);color:var(--ink)}
+
+/* User-requested hero triptych: each still links to its own Reel. */
+.hero-film{display:block}.hero-film-frame{position:relative;aspect-ratio:311/421;overflow:hidden;background:#d2d8d1}.hero-film-frame>img{width:100%;height:100%;object-fit:cover}.hero-film-frame>img.hero-source-crop{position:absolute;width:379.822%;max-width:none;height:auto;left:-87.8338%;top:-18.806%}.hero-film:focus-visible{outline:4px solid #167f70;outline-offset:5px}.hero-media .hero-film>span{font-size:11px}.hero-film-frame>img:not(.hero-source-crop){object-position:center}.studio-home>.hero{padding-bottom:25px}
